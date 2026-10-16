@@ -1,0 +1,101 @@
+{
+  "slug": "pressurecookerclear",
+  "box": 177,
+  "date": "2026-10-19",
+  "title": "PressureCookerClear",
+  "question": "How does a pressure cooker work?",
+  "hook": "A 70-gram weight on a hole 3 mm across holds back steam pushing like 380 kg on the lid. Take an Indian whistle cooker apart in 3D, count its whistles, and see why 120 °C cooks dal four times faster.",
+  "thumbText": "HOW A PRESSURE COOKER WORKS",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "pressure cooker",
+    "whistle",
+    "boiling point",
+    "steam",
+    "gauge pressure",
+    "Arrhenius",
+    "kitchen safety",
+    "IS 2347",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A pot that seals",
+      "text": "A pressure cooker is a strong pot whose lid seals with a rubber gasket. On the lid stands a thin vent pipe with a loose weight, the whistle, on top. A safety valve, usually a fusible plug in Indian cookers, and a lid that locks under pressure are the backups."
+    },
+    {
+      "title": "The weight sets the pressure",
+      "text": "Steam can only escape by lifting the weight, so it lifts when pressure × the hole's area equals the weight's force. A 70 g weight on a 3 mm hole gives about 97 kPa, close to the 1 kgf/cm² Indian cookers are built for. Inside it is about 2 atmospheres, so water boils at about 120 °C."
+    },
+    {
+      "title": "Why it whistles again and again",
+      "text": "When the weight lifts, steam rushes out at about 2 g a second and carries heat away faster than the flame adds it. The pressure falls, the weight drops back, and the flame builds it up again. The time between whistles depends on the flame and on how much food is inside."
+    },
+    {
+      "title": "Hotter means much faster",
+      "text": "Wet food cannot get hotter than the water's boiling point. Cooking is chemistry, and with dal's activation energy the Arrhenius equation says 120 °C cooks about four times faster than 100 °C. In Leh, where an open pot boils at 88 °C, the difference is even bigger."
+    },
+    {
+      "title": "Layers of safety",
+      "text": "If froth blocks the vent, the pressure climbs until the fusible plug gives way, which India's standard IS 2347 says must happen before 3 kgf/cm². The lid cannot be opened while there is pressure. These parts must never be blocked, weighted or changed; let the pressure fall by itself before opening."
+    },
+    {
+      "title": "From Papin to the multicooker",
+      "text": "Denis Papin showed a steam digester with a weighted safety valve in 1679. Autoclaves sterilise at 121 °C with the same pressure. Indian makers began in 1959, the ISI mark became compulsory in 2021, and electric multicookers now use sensors instead of a whistle."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pressure",
+      "def": "Force spread over an area, P = F ÷ A, measured in pascals."
+    },
+    {
+      "term": "Gauge pressure",
+      "def": "Pressure above the outside air. A cooker runs at about 1 kgf/cm², about 100 kPa, gauge."
+    },
+    {
+      "term": "Boiling point",
+      "def": "The temperature where water's vapour pressure equals the pressure around it: 100 °C at sea level, about 120 °C in a cooker."
+    },
+    {
+      "term": "Weight valve",
+      "def": "The loose weight on the vent pipe. Its weight over the hole's area sets the cooker's pressure."
+    },
+    {
+      "term": "Gasket",
+      "def": "The rubber or silicone ring that seals the lid to the body."
+    },
+    {
+      "term": "Fusible plug",
+      "def": "A safety plug of metal that gives way if the pressure or temperature gets far too high."
+    },
+    {
+      "term": "Arrhenius equation",
+      "def": "How a reaction's speed rises with temperature: k = A e^(−Ea ÷ RT)."
+    },
+    {
+      "term": "Natural release",
+      "def": "Switching off the heat and letting the pressure fall by itself before opening the lid."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "pressurecookerclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
